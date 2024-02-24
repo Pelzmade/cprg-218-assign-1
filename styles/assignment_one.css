@@ -11,13 +11,14 @@
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-  .p {
+  .paragraph {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 20px;
   }
 
     .container {
       max-width: 1700px;
-      margin-right: 10px; 
       padding: 10px; 
     }
       
@@ -25,7 +26,6 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        margin-right: 10px;
         padding: 10px;
     }
 
