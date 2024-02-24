@@ -1,5 +1,5 @@
 .header {
-    background: green;
+    background: grey;
     color: white;
     padding: 10px;
     text-align: left;
@@ -7,7 +7,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    .subheader {
+  .subheader {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
@@ -17,7 +17,7 @@
 
     .container {
       max-width: 1700px;
-      margin: 100px auto;
+      margin-right: 10px; 
       padding: 10px; 
     }
       
@@ -27,13 +27,12 @@
         flex-direction: row;
         margin-right: 10px;
         padding: 10px;
-        background-color: green;
     }
 
 .card {
     box-sizing: border-box; 
-    padding: 10px;  
-    width: 100%; 
+    padding: 10px; 
+    width: 24rem; 
 }
 
 @media screen and (min-width: 768px) {
