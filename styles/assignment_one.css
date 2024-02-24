@@ -1,16 +1,21 @@
 .header {
-    Background: green;
-    Color: white;
-    Padding: 10px;
-    Text-align: left;
-    Grid-column-start: 1;
+    background: green;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    grid-column-start: 1;
     }
-   
+
+    .container {
+      max-width: 1700px;
+      margin: 100px auto;
+      padding: 10px; 
+    }
+      
 .card-container {
-    display: flex;
+        display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center; 
         padding: 10px;
         background-color: green;
     }
@@ -33,6 +38,7 @@
     .card {
       width: 33.33%;
     }
+   
 }
 
 
